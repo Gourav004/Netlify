@@ -1,8 +1,13 @@
 import { defineConfig } from 'vite'
-// import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [tailwindcss(),],
+  plugins: [tailwindcss()],
+  preview: {
+    allowedHosts: [
+      'netlify-edl4.onrender.com', // ✅ allow your deployed host
+      'localhost',                 // ✅ optional, for local testing
+    ],
+  },
 })
