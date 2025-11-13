@@ -1,1 +1,45 @@
-node_modules
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Local environment files
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+.history/
+
+# Firebase cache
+.firebase/
+.firebaserc
+
+# Temporary files
+*.tmp
+*.cache
+
+# Tailwind JIT cache
+*.tailwindcss*
+
+# Lock files (optional)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
